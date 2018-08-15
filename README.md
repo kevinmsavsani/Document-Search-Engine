@@ -14,14 +14,15 @@ the word in O(1) time.
 Preprocessing time complexity is O(n).
 
 4. Command needed to execute for search your query are as follows.
-  command 1:   $python search.py
-     it give following options to you
-1)to create index and search in folder
-2)to search in folder
-3)to convert pdf to text
-4)search in file by kmp
-5)recently modified or created files
-6)exit program
+  command 1:   $python search.py .
+  
+It give following options :
+1) to create index and search in folder.
+2) to search in folder.
+3) to convert pdf to text.
+4) search in file by kmp.
+5) recently modified or created files.
+6) exit program.
 
 Enter your option like 1, 2 ,3 ,4 ,5 or 6
 
