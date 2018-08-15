@@ -1,53 +1,45 @@
 # search_engine
-This project search the word ,sentence /string or Quotations 
 
 Salient features of the projects
-1. It is basically a search engine which search the 
- a word , string/Sentence or a quotations in all text files and pdf files
- which are present in a given directory
+1. It is basically a search engine which search 
+ a word , string or a quotations in all text files
+ which are present in a given directory.
 
 
-2. for pdf files first it convert the pdf files into text then search in them.
+2. For pdf files first it convert the pdf files into text files then search given input string in them.
 
-3. algorithm is using is inverted indexing, making raking and then searching
+3. Algorithm used is inverted indexing, ranking and then searching
 the word in O(1) time.
-preprocessing time is O(n)
+Preprocessing time complexity is O(n).
 
-4. In texts folder contain all txt files and in PDFs folder contain pdf files
+4. Command needed to execute for search your query are as follows.
+  command 1:   $python search.py .
+  
+It give following options :
+1) to create index and search in folder.
+2) to search in folder.
+3) to convert pdf to text.
+4) search in file by kmp.
+5) recently modified or created files.
+6) exit program.
 
-5. command need to execute for search your query
-  command 1:   $python search.py
-     it give following options to you
-1)to create index and search in folder
-2)to search in folder
-3)to convert pdf to text
-4)search in file by kmp
-5)recently modified or created files
-6)exit program
+Enter your option like 1, 2 ,3 ,4 ,5 or 6
 
-enter your option like 1, 2 ,3 ,4,5,6
+Initially execute the option 1 for creating index and ranking the files accordingly.
+It take a little time to make indexing and giving ranking to all the files present in Texts directory.
 
+KMP algorithm is used to search in files created or edited after previous indexing of files.
 
-enter one for execute the option 1
-first execute the option 1
+Now you can chose option on your choice.
 
-it make the index and rank the files accordingly
-it take a liitle time to make indexing and giving ranking to all the files present in Texts sirectory
+For query:
 
-now you can chose option on your choice
+For searching word simply give word as your input.
 
-for Quoray:
-for search word simple give input your word example <algorithm>
-for Search the Sentence input <your Sentence>
-for quotations input <"your quotation">
+For quotations give input as <"your quotation"> .
 
 Output:-
-It gives
-1 File name and line number containg your query ;
-
-I am using Kmp to those files which you add next few files so that not waste time to
-make indexing all files after adding few files
-If you adding a number of files then you can make indexing executing the command 1
+It gives file name and line number containing your query.
 
      
 
