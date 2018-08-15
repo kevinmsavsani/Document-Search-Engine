@@ -34,7 +34,8 @@ KMP algorithm is used to search in files created or edited after previous indexi
 Now you can chose option on your choice.
 
 For query:
-For searching word simple give input your word.
+
+For searching word simply give word as your input.
 
 For quotations give input as <"your quotation"> .
 
