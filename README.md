@@ -1,6 +1,5 @@
 # Document-Search-Engine
 
-This project search the word ,sentence /string and Quotations. 
 
 Salient features of the projects
 1. It is basically a search engine which search 
