@@ -12,7 +12,7 @@ Salient features of the projects
 
 3. Algorithm used is inverted indexing, ranking and then searching
 the word in O(1) time.
-preprocessing time complexity is O(n).
+Preprocessing time complexity is O(n).
 
 4. Command needed to execute for search your query are as follows.
   command 1:   $python search.py
@@ -24,14 +24,14 @@ preprocessing time complexity is O(n).
 5)recently modified or created files
 6)exit program
 
-enter your option like 1, 2 ,3 ,4 ,5 or 6
+Enter your option like 1, 2 ,3 ,4 ,5 or 6
 
 Initially execute the option 1 for creating index and ranking the files accordingly.
 It take a little time to make indexing and giving ranking to all the files present in Texts directory.
 
 KMP algorithm is used to search in files created or edited after previous indexing of files.
 
-Now you can chose option on your choice
+Now you can chose option on your choice.
 
 For query:
 for search word simple give input your word example <algorithm>
@@ -39,6 +39,5 @@ for Search the Sentence input <your Sentence>
 for quotations input <"your quotation">
 
 Output:-
-It gives
-1 File name and line number containing your query ;
+It gives file name and line number containing your query.
 
